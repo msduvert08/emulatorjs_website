@@ -104,6 +104,8 @@
 
                     if (["z64", "n64"].includes(ext))
                         return "n64"
+                    if (["pak", "pak"].includes(ext))
+                        return "openbor"
 
                     if (["pce"].includes(ext))
                         return "pce"
@@ -132,6 +134,7 @@
                             "Virtual Boy": "vb",
                             "Sega Mega Drive": "segaMD",
                             "Sega Master System": "segaMS",
+                            "Openbor": "openbor",
                             "Sega CD": "segaCD",
                             "Atari Lynx": "lynx",
                             "Sega 32X": "sega32x",
